@@ -3,10 +3,12 @@
 
 /* Global */
 @import url(./global/header.css);
+@import url(./global/footer.css);
 
 /*Home*/
 @import url(./home/superInfo.css);
-
 @import url(./home/intro.css);
-
 @import url(./home/produto.css);
+@import url(./home/preco.css);
+@import url(./home/qualidade.css);
+@import url(./home/newsletter.css);

@@ -13,3 +13,27 @@
     flex-wrap: wrap;
     align-items: end;
 }
+
+.produto-item {
+    flex: 1 1 175px;
+    margin: 10px;
+}
+
+.produto-item h2 {
+    font-size: 3em;
+    color: #a4a4a4;
+    background-color: #f7f7f7;
+    padding: 60px 20px;
+}
+
+.purple {
+    border-top: 8px solid #ae81FF;
+}
+
+.red {
+    border-top: 8px solid #f9265e;
+}
+
+.blue {
+    border-top: 8px solid #66d9eb;
+}
