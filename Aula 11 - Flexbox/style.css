@@ -1,0 +1,30 @@
+/* section {
+    width: 200px;
+    height: 200px;
+    background-color: #000;
+    margin: 20px;
+    float: left;
+} */
+
+.container {
+    display: flex;
+}
+
+.container section {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: #fff;
+    margin: 10px;
+    padding: 10ex;
+    font-size: 18px;
+
+}
+
+.sec5 {
+    /* align-self: flex-start; */
+    order: 1;
+    /* flex-direction: ;
+    flex-flow: ;
+    flex-wrap: ; */
+}

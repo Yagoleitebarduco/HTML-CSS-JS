@@ -1,0 +1,15 @@
+.produtos {
+    max-width: 960px;
+    margin: 60px auto;
+}
+
+.produtos h1 {
+    font-size: 3em;
+    margin: 0 16px 0 10px;
+}
+
+.produtosContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+}

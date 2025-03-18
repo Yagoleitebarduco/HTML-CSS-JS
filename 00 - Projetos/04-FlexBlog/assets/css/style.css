@@ -1,0 +1,12 @@
+/*Formatações*/
+@import url(./util/formatacoes.css);
+
+/* Global */
+@import url(./global/header.css);
+
+/*Home*/
+@import url(./home/superInfo.css);
+
+@import url(./home/intro.css);
+
+@import url(./home/produto.css);
