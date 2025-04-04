@@ -164,32 +164,38 @@
 
 
 // Excercicio 18
-var salario = parseFloat(prompt("Qual o Seu Salario Atual: "));
-var genero = prompt("Qual o seu Genero: ").toUpperCase();
-var anosTrabalho = parseFloat(prompt("Quantos Anos de Empressa: "));
+// var salario = parseFloat(prompt("Qual o Seu Salario Atual: "));
+// var genero = parseInt(prompt("Selecione Qual o seu Genero: \n[1]Feminino \n[2]Masculino"));
+// var anosTrabalho = parseFloat(prompt("Quantos Anos de Empressa: "));
 
-var valorSalarioN1 = salario * 0.7
-var valorSalarioN2 = salario * 0.15
-var valorSalarioN3 = salario * 0.22
+// var valorSalarioN1 = (salario * 7) / 100
+// var valorSalarioN2 = (salario * 15) / 100
+// var valorSalarioN3 = (salario * 22) / 100
 
-var valorSalarioN4 = salario * 0.4
-var valorSalarioN5 = salario * 0.10
-var valorSalarioN6 = salario * 0.18
+// var valorSalarioN4 = (salario * 4) / 100
+// var valorSalarioN5 = (salario * 10) / 100
+// var valorSalarioN6 = (salario * 18) / 100
 
-if (genero == 'FEMININO') {
-    if (anosTrabalho < 10) {
-        document.write(`Seu Salario e de ${salario} com o aumento agora sera ${salario + valorSalarioN1}`)
-    } else if (anosTrabalho >= 10 && anosTrabalho <= 20) {
-        document.write(`Seu Salario e de ${salario} com o f aumento agora sera ${salario + valorSalarioN2}`)
-    } else {
-        document.write(`Seu Salario e de ${salario} com o aumento agora sera ${salario + valorSalarioN3}`)
-    }
-} else {
-    if (anosTrabalho < 15) {
-        document.write(`Seu Salario e de ${salario} com o aumento agora sera ${salario + valorSalarioN1}`)
-    } else if (anosTrabalho >= 15 && anosTrabalho <= 25) {
-        document.write(`Seu Salario e de ${salario} com o aumento agora sera ${salario + valorSalarioN2}`)
-    } else {
-        document.write(`Seu Salario e de ${salario} com o aumento agora sera ${salario + valorSalarioN3}`)
-    }
-}
+// switch (genero) {
+//     case 1:
+//         if (anosTrabalho < 10) {
+//             document.write(`Seu Salario e de ${salario} com o aumento agora sera ${salario + valorSalarioN1}`)
+//         } else if (anosTrabalho >= 10 && anosTrabalho <= 20) {
+//             document.write(`Seu Salario e de ${salario} com o aumento agora sera ${salario + valorSalarioN2}`)
+//         } else {
+//             document.write(`Seu Salario e de ${salario} com o aumento agora sera ${salario + valorSalarioN3}`)
+//         }
+//         break
+
+//     case 2:
+//         if (anosTrabalho < 15) {
+//             document.write(`Seu Salario e de ${salario} com o aumento agora sera ${salario + valorSalarioN4}`)
+//         } else if (anosTrabalho >= 15 && anosTrabalho <= 25) {
+//             document.write(`Seu Salario e de ${salario} com o aumento agora sera ${salario + valorSalarioN5}`)
+//         } else {
+//             document.write(`Seu Salario e de ${salario} com o aumento agora sera ${salario + valorSalarioN6}`)
+//         }
+//         break
+//     default:
+//         document.write(`ERRO`)
+// }

@@ -21,40 +21,40 @@
 
 
 //SELEÇÃO POR ID
-var div = document.getElementById('teste');
+// var div = document.getElementById('teste');
 
-div.style.backgroundColor = '#000';
-div.style.color = '#fff';
-div.style.fontSize = '20px';
-div.style.padding = '10px'
-div.style.width = '600px'
-div.style.margin = '20px'
-
-
-//SELEÇÃO POR NAME
-var div2 = document.getElementsByName('teste2')[0]
-
-div2.style.backgroundColor = '#666';
-div2.style.color = '#fff';
-div2.style.fontSize = '20px';
-div2.style.padding = '10px'
-div2.style.width = '600px'
-div2.style.margin = '20px'
+// div.style.backgroundColor = '#000';
+// div.style.color = '#fff';
+// div.style.fontSize = '20px';
+// div.style.padding = '10px'
+// div.style.width = '600px'
+// div.style.margin = '20px'
 
 
-//SELEÇÃO POR CLASS
-var div3 = document.getElementsByClassName('teste3')[0];
+// //SELEÇÃO POR NAME
+// var div2 = document.getElementsByName('teste2')[0]
 
-div3.style.backgroundColor = '#444';
-div3.style.color = '#fff';
-div3.style.fontSize = '20px';
-div3.style.padding = '10px'
-div3.style.width = '600px'
-div3.style.margin = '20px'
+// div2.style.backgroundColor = '#666';
+// div2.style.color = '#fff';
+// div2.style.fontSize = '20px';
+// div2.style.padding = '10px'
+// div2.style.width = '600px'
+// div2.style.margin = '20px'
 
 
-//SELEÇÃO POR SELECTOR
-var h1 = document.querySelector('h1#titulo'); // class = 'h1.titulo'
+// //SELEÇÃO POR CLASS
+// var div3 = document.getElementsByClassName('teste3')[0];
 
-h1.innerHTML = 'PRESTA A ATENCAO ANA CLARA PEDROSO GOMES';
+// div3.style.backgroundColor = '#444';
+// div3.style.color = '#fff';
+// div3.style.fontSize = '20px';
+// div3.style.padding = '10px'
+// div3.style.width = '600px'
+// div3.style.margin = '20px'
+
+
+// //SELEÇÃO POR SELECTOR
+// var h1 = document.querySelector('h1#titulo'); // class = 'h1.titulo'
+
+// h1.innerHTML = 'PRESTA A ATENCAO ANA CLARA PEDROSO GOMES';
 
