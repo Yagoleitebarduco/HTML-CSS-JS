@@ -1,0 +1,6 @@
+/*UTIL */
+@import url(./util/formatacoes.css);
+
+/* HOME */
+@import url(./home/menu.css);
+@import url(./home/animaisDescricao.css);
